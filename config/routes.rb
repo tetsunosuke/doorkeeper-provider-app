@@ -20,4 +20,5 @@ Rails.application.routes.draw do
   end
 
   root to: 'home#index'
+  get 'code', to: 'home#code'
 end
