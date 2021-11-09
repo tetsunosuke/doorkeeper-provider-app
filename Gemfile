@@ -7,6 +7,8 @@ ruby "2.6.5"
 gem "rails", "~> 6.1"
 gem "doorkeeper", "~> 5.5.4"
 gem "devise", "~> 4.8"
+gem 'oauth2'
+
 
 gem "faker"
 gem "jquery-rails"
@@ -20,6 +22,7 @@ gem "rollbar"
 
 gem "puma"
 gem "rack-timeout"
+
 
 group :development do
   gem "listen"
